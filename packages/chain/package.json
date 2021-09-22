@@ -5,7 +5,7 @@
   "author": "ext.xieminghao <ext.xieminghao@example.com>",
   "homepage": "https://github.com/HaloXie/test#readme",
   "license": "ISC",
-  "main": "lib/chain.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -18,9 +18,13 @@
     "url": "git+https://oauth2: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@github.com/HaloXie/test.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "start": "node ./lib/index.js"
   },
   "bugs": {
     "url": "https://github.com/HaloXie/test/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }

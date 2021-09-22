@@ -1,0 +1,10 @@
+@host = http://localhost:5000
+@contentType = application/json
+
+# route
+@route = health-check
+
+# 获取所有的模板列表
+GET {{host}}/{{route}}/ HTTP/1.1
+Content-Type: {{contentType}}
+

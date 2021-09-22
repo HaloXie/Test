@@ -1,17 +1,9 @@
 {
-  "name": "test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bootstrap": "lerna bootstrap"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "tsc": "^2.0.3",
-    "xml-js": "^1.6.11",
-    "xml2json": "^0.12.0",
-    "xmljs": "^0.3.2"
-  }
+    "lerna": "^4.0.0"
+  },
+  "name": "test"
 }
